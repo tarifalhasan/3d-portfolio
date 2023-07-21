@@ -23,6 +23,11 @@ import {
   jobit,
   tripguide,
   threejs,
+  ossa,
+  floppa,
+  bubbleDefi,
+  navcon,
+  kimi,
 } from '../assets';
 
 export const navLinks = [
@@ -58,7 +63,7 @@ const services = [
     icon: backend,
   },
   {
-    title: 'Content Creator',
+    title: 'Full Stack ',
     icon: creator,
   },
 ];
@@ -210,6 +215,27 @@ const projects = [
     source_code_link: 'https://github.com/tarifalhasan/',
   },
   {
+    name: 'OSSA DASHBOARD',
+    description:
+      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+    tags: [
+      {
+        name: 'NEXT.JS',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Chart.js',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: ossa,
+    source_code_link: 'https://github.com/tarifalhasan/curolabs',
+  },
+  {
     name: 'Job IT',
     description:
       'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
@@ -249,7 +275,102 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: 'https://github.com/tarifalhasan/',
+    source_code_link: 'https://github.com/tarifalhasan/NEXTUS-NXET.JS',
+  },
+  {
+    name: 'Floppa Presel',
+    description: 'Web3 Blockchain Develpment.',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'web3',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind css',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: floppa,
+    source_code_link: 'https://github.com/tarifalhasan/NEXTUS-NXET.JS',
+  },
+  {
+    name: 'Bubble Defi',
+    description:
+      'With delegated community governance and stake-based earnings, you can now vote on proposals and earn passive income from the protocols generated revenue.',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'web3',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind css',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'Responsive',
+        color: 'green-text-gradien',
+      },
+    ],
+    image: bubbleDefi,
+    source_code_link: 'https://github.com/tarifalhasan/BUbble-Defi',
+  },
+  {
+    name: 'Persnal Buseness Website',
+    description:
+      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.,',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'web3',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind css',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'Responsive',
+        color: 'green-text-gradien',
+      },
+    ],
+    image: navcon,
+    source_code_link: 'https://github.com/tarifalhasan/navcon-ai',
+  },
+  {
+    name: 'Kimi',
+    description:
+      'The KiMi Token ecosystem is built in such a way that, regardless of the dynamics of Bitcoin, we can always place new hardware.',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'web3',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind css',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'Responsive',
+        color: 'green-text-gradien',
+      },
+    ],
+    image: kimi,
+    source_code_link: 'https://github.com/tarifalhasan/navcon-ai',
   },
 ];
 
